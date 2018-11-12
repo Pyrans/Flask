@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+    欢迎{{ uname }}来搞,{{ sname }}有点想搞
+    <br />
+    <a href="{{ url_for('hello.login') }}">登录</a>
+    <a href="{{ url_for('hello.logout') }}">退出</a>
+</body>
+</html>
